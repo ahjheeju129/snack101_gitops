@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: snack101-app
+  namespace: snack101
+spec:
+  replicas: 3
+  template:
+    spec:
+      containers:
+      - name: snack101
+        image: snack101:latest
+        resources:
+          requests:
+            memory: "128Mi"
+            cpu: "100m"
+          limits:
+            memory: "256Mi"
+            cpu: "200m"

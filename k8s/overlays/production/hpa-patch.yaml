@@ -1,0 +1,8 @@
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: snack101-hpa
+  namespace: snack101
+spec:
+  minReplicas: 3
+  maxReplicas: 20
