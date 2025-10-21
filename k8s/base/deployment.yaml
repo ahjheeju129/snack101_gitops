@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: snack101
-        image: snack101:latest
+        image: 036670977407.dkr.ecr.ap-northeast-2.amazonaws.com/snack101:51969fb0b5779ddb0facc6519782be610c6f681d
         ports:
         - containerPort: 8000
         env:
