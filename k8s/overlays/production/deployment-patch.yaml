@@ -9,7 +9,7 @@ spec:
     spec:
       containers:
       - name: snack101
-        image: snack101:latest
+        image: 036670977407.dkr.ecr.ap-northeast-2.amazonaws.com/snack101:latest
         resources:
           requests:
             memory: "128Mi"
