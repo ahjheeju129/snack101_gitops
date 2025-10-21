@@ -1,7 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: snack101-config
-  namespace: snack101
-data:
-  DATABASE_URL: "sqlite:///./snack101.db"
