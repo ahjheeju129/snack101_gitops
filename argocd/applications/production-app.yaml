@@ -8,7 +8,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/ahjheeju129/snack101
+    repoURL: https://github.com/ahjheeju129/snack101_gitops
     targetRevision: main
     path: k8s/overlays/production
   destination:
