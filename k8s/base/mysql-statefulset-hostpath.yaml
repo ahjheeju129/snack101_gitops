@@ -72,12 +72,8 @@ spec:
             - "SELECT 1"
           initialDelaySeconds: 5
           periodSeconds: 2
-  volumeClaimTemplates:
-  - metadata:
-      name: mysql-storage
-    spec:
-      accessModes: ["ReadWriteOnce"]
-      storageClassName: local-path
-      resources:
-        requests:
-          storage: 10Gi
+      volumes:
+      - name: mysql-storage
+        hostPath:
+          path: /var/lib/mysql
+          type: DirectoryOrCreate
