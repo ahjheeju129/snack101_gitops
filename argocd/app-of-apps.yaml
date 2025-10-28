@@ -12,7 +12,7 @@ spec:
     targetRevision: HEAD
     path: argocd
   destination:
-    server: https://192.168.224.190:6443
+    server: https://kubernetes.default.svc
     namespace: argocd
   syncPolicy:
     automated:
