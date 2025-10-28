@@ -4,4 +4,4 @@ metadata:
   name: snack101-config
   namespace: snack101
 data:
-  DATABASE_URL: "sqlite:///./snack101.db"
+  DATABASE_URL: "mysql+pymysql://snack101user:snack101user@mysql-service:3306/snack101"
