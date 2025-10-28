@@ -77,7 +77,7 @@ spec:
       name: mysql-storage
     spec:
       accessModes: ["ReadWriteOnce"]
-      storageClassName: local-storage
+      storageClassName: local-path
       resources:
         requests:
           storage: 10Gi
