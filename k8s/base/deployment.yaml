@@ -19,7 +19,7 @@ spec:
       - name: ecr-registry-secret
       containers:
       - name: snack101
-        image: 036670977407.dkr.ecr.ap-northeast-2.amazonaws.com/snack101:51969fb0b5779ddb0facc6519782be610c6f681d
+        image: 036670977407.dkr.ecr.ap-northeast-2.amazonaws.com/snack101:6984c53eb1ddcabb6e22795c5e420791325eeceb
         ports:
         - containerPort: 8000
         env:
