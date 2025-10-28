@@ -12,7 +12,7 @@ spec:
     targetRevision: main
     path: k8s/overlays/production
   destination:
-    server: https://kubernetes.default.svc
+    server: https://192.168.224.190:6443
     namespace: snack101
   syncPolicy:
     automated:
